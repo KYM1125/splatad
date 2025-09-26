@@ -3,7 +3,7 @@
 requires = [
     "setuptools>=62",      # the build backend
     "wheel",
-    "torch",              # provides torch.utils.cpp_extension
+    "torch==2.0.1+cu118",              # provides torch.utils.cpp_extension
     "ninja",         # speeds up C++/CUDA builds
     "numpy"          # setup.py imports numpy for version checks
 ]
