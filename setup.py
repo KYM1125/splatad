@@ -120,7 +120,7 @@ setup(
         "numpy",
         "jaxtyping",
         "rich>=12",
-        "torch==2.0.1+cu118",
+        # "torch==2.0.1+cu118",
         "typing_extensions; python_version<'3.8'",
     ],
     extras_require={
